@@ -1,4 +1,4 @@
-		<!-- Footer -->
+<!-- Footer -->
 			<div id="footer-wrapper">
 				<section id="footer" class="container">
 					<div class="row">
@@ -8,13 +8,21 @@
 									<h2>Blandit nisl adipiscing</h2>
 								</header>
 								<ul class="dates">
-								{% for post in site.posts offset: 0 limit: 5 %}
 									<li>
-										<span class="date">{{ post.date | date: "%B"}} <strong>{{ post.date | date: "%d"}}</strong></span>
-										<h3><a href="{{ site.baseurl }}{{ post.url }}">{{ post.title }}</a></h3>
-										{{ post.excerpt }}
+										<span class="date">June <strong>7</strong></span>
+										<h3><a href="#">Anniversaire de Gene</a></h3>
+										C'est l'aniversaire de Gene !
 									</li>
-								{% endfor %}
+									<li>
+										<span class="date">April <strong>4</strong></span>
+										<h3><a href="#">Anniversaire de Laure</a></h3>
+										C'est l'aniversaire de Maman !
+									</li>
+									<li>
+										<span class="date">January <strong>13</strong></span>
+										<h3><a href="#">Anniversaire de Garance</a></h3>
+										C'est l'aniversaire de Garance !
+									</li>
 								</ul>
 							</section>
 						</div>
@@ -36,48 +44,20 @@
 						</div>
 					</div>
 					<div class="row">
-						<div class="4u">
+						<div class="3u">
 							<section>
 								<header>
-									<h2>Tempus consequat</h2>
-								</header>
-								<ul class="divided">
-									<li><a href="#">Lorem ipsum dolor sit amet sit veroeros</a></li>
-									<li><a href="#">Sed et blandit consequat sed tlorem blandit</a></li>
-									<li><a href="#">Adipiscing feugiat phasellus sed tempus</a></li>
-									<li><a href="#">Hendrerit tortor vitae mattis tempor sapien</a></li>
-									<li><a href="#">Sem feugiat sapien id suscipit magna felis nec</a></li>
-									<li><a href="#">Elit class aptent taciti sociosqu ad litora</a></li>
-								</ul>
-							</section>
-						</div>
-						<div class="4u">
-							<section>
-								<header>
-									<h2>Ipsum et phasellus</h2>
-								</header>
-								<ul class="divided">
-									<li><a href="#">Lorem ipsum dolor sit amet sit veroeros</a></li>
-									<li><a href="#">Sed et blandit consequat sed tlorem blandit</a></li>
-									<li><a href="#">Adipiscing feugiat phasellus sed tempus</a></li>
-									<li><a href="#">Hendrerit tortor vitae mattis tempor sapien</a></li>
-									<li><a href="#">Sem feugiat sapien id suscipit magna felis nec</a></li>
-									<li><a href="#">Elit class aptent taciti sociosqu ad litora</a></li>
-								</ul>
-							</section>
-						</div>
-						<div class="4u">
-							<section>
-								<header>
-									<h2>Vitae tempor lorem</h2>
+									<h2>Contact</h2>
 								</header>
 								<ul class="social">
 									<li><a class="icon fa-facebook" href="#"><span class="label">Facebook</span></a></li>
 									<li><a class="icon fa-twitter" href="#"><span class="label">Twitter</span></a></li>
-									<li><a class="icon fa-dribbble" href="#"><span class="label">Dribbble</span></a></li>
 									<li><a class="icon fa-linkedin" href="#"><span class="label">LinkedIn</span></a></li>
-									<li><a class="icon fa-google-plus" href="#"><span class="label">Google+</span></a></li>
 								</ul>
+						    </section>
+						</div>
+						<div class="4u">
+							<section>
 								<ul class="contact">
 									<li>
 										<h3>Address</h3>
@@ -87,6 +67,12 @@
 											Nashville, TN 00000-0000
 										</p>
 									</li>
+								</ul>
+							</section>
+						</div>
+							<div class="4u">
+							    <section>
+							    <ul class="contact">
 									<li>
 										<h3>Mail</h3>
 										<p><a href="#">someone@untitled.tld</a></p>

@@ -315,7 +315,7 @@
 			cursor: pointer;
 			border: 0;
 			border-radius: 5px;
-			background: #d52349;
+			background: #ffcd06;
 			color: #fff !important;
 			font-weight: 700;
 			outline: 0;
@@ -331,7 +331,7 @@
 			input[type="reset"]:hover,
 			.button:hover
 			{
-				background: #e53359;
+				background: #ffdf62;
 			}
 
 			input[type="button"]:active,
@@ -347,7 +347,7 @@
 			input[type="reset"].alt,
 			.button.alt
 			{
-				background: #252122;
+				background: #ffcd06;
 			}
 
 				input[type="button"].alt:hover,
@@ -355,7 +355,7 @@
 				input[type="reset"].alt:hover,
 				.button.alt:hover
 				{
-					background: #353132;
+					background: #ffdf62;
 				}
 
 				input[type="button"].alt:active,
@@ -486,7 +486,7 @@
 					position: absolute;
 					left: 0;
 					top: 1.3em;
-					background-color: #d52349;
+					background-color: #ffcd06;
 					height: 3.5em;
 					text-align: center;
 					color: #fff;
@@ -502,7 +502,7 @@
 						position: absolute;
 						bottom: 0;
 						right: -1.2em;
-						border-left: solid 1.25em #d52349;
+						border-left: solid 1.25em #ffcd06;
 						border-top: solid 1.8em transparent;
 						border-bottom: solid 1.8em transparent;
 					}

@@ -1,7 +1,8 @@
 ---
-title: Ullamco Laboris minim veniam
-featured: /assets/images/pic03.jpg
 layout: post
+title: Ullamco Laboris minim veniam
+featured: "/assets/images/pic03.jpg"
+description: bla bla
 ---
 
 <p>Ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat..</p>
